@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="eng">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="css/style.css" type="text/css">
+    <title>URL-Shortner | Cosme</title>
+    <script type="text/javascript" src="js/javascript.js"></script>
+
+</head>
+
+<body>
+
+    <div class="main-div">
+        <div class="punch-line-div">
+            <h1>URL Shortener</h1>
+            <h3>The best solution to short your URL</h3>
+
+            <div class="fill-url-div">
+                <input type="text" class="box" placeholder="URL" id="url" onfocus="refresh()">
+                <button class="go-ahead-line" id="submit" onclick="submitRequest('url')">
+                    Shorten it!
+                </button>
+            </div>
+        </div>
+    </div>
+
+    <div class="url" id="url-details">
+        <h1>Operation Completed</h1>
+        <h2>Thank You!</h2>
+        <div class="url-details">
+            <p>Shortned URL</p>
+        </div>
+        <h1>URL-LINK</h1>
+    </div>
+
+</body>
+
+</html>
